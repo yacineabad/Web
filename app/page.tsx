@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { DownloadCVButton } from "@/components/download-cv-button"
 
 export default function Home() {
   return (
@@ -34,7 +35,7 @@ export default function Home() {
               Contact
             </Link>
           </nav>
-          <Button>Download CV</Button>
+          <DownloadCVButton />
         </div>
       </header>
 
